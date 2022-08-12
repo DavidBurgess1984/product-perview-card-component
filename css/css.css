@@ -1,5 +1,6 @@
 :root{
     --dark-cyan: hsl(158, 36%, 37%);
+    --darker-cyan: #1A4032;
     --cream: hsl(30, 38%, 92%);
     --very-dark-blue: #1C232B;
     --dark-grayish-blue: #6C7289;
@@ -106,6 +107,12 @@ p.card-description {
     align-items: center;
     justify-content: center;
     border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.add-to-cart-button:hover,.add-to-cart-button:focus{
+    background-color:var(--darker-cyan)
 }
 
 .add-to-cart-button p {
